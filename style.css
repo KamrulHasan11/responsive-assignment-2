@@ -1,3 +1,9 @@
+body h1, h2, h3, h4, h5, h6{
+    font-family: 'Bebas Neue', cursive;
+}
+body p{
+    font-family: 'Roboto', sans-serif;
+}
 .navbar-brand img{
     width: 300px;
 }
@@ -7,6 +13,34 @@
 .under-header img{
     width: 90%;
 }
-.button-img img{
+.button{
+    background-color: #9DB63C;
+    border: 0px;
+    border-radius: 10px;
+    padding: 0px 25px;
+    color: #ffffff;
+}
+.button:hover{
+    color: #ffffff;
+}
+.button img{
     width: 25px;
+}
+.jacket-img{
+    width: 100%;
+    background-color: #F0F0F0;
+    padding: 30px;
+    border-radius: 25px;
+}
+.jacket-wrap h1, h4{
+    color: #363958;
+}
+.woman-jacket h1{
+    color: #FABE4C;
+}
+.unknown-section-right img{
+    width: 100%;
+}
+.unknown-section img{
+    width: 75px;
 }
