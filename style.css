@@ -4,11 +4,19 @@ body h1, h2, h3, h4, h5, h6{
 body p{
     font-family: 'Roboto', sans-serif;
 }
+.header-bg{
+    background-color: #FFFBF0;
+}
 .navbar-brand img{
     width: 300px;
 }
 .under-header h1{
     color: #FABE4C;
+    font-size: 73px;
+}
+.under-header span{
+    color: #363958;
+    font-size: 73px;
 }
 .under-header img{
     width: 90%;
@@ -26,6 +34,9 @@ body p{
 .button img{
     width: 25px;
 }
+.jacket-mp{
+    margin-right: 30px;
+}
 .jacket-img{
     width: 100%;
     background-color: #F0F0F0;
@@ -38,9 +49,27 @@ body p{
 .woman-jacket h1{
     color: #FABE4C;
 }
-.unknown-section-right img{
-    width: 100%;
+.unknown-section{
+    position: relative;
 }
 .unknown-section img{
     width: 75px;
 }
+.unknown-section-right img{
+    width: 100%;
+}
+.t-shirt-card{
+    border: 0px;
+}
+.tshirt-footer-card{
+    border: 0px;
+    background-color: #ffffff;
+}
+@media (min-width: 576px) {
+    #contactus{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+}
+
